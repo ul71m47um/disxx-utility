@@ -1,0 +1,15 @@
+$(OBJROOT)/std-mod.o
+$(OBJROOT)/disxx.utility.file.MappedFile-mod.o
+$(OBJROOT)/disxx.utility.Overload-mod.o
+$(OBJROOT)/disxx.utility.error.ParserError-mod.o
+$(OBJROOT)/disxx.utility.ini.BaseParser-mod.o
+$(OBJROOT)/disxx.utility.ini.Reader-mod.o
+$(OBJROOT)/disxx.utility.ini.Writer-mod.o
+$(OBJROOT)/disxx.utility.ini.Parser-mod.o
+$(OBJROOT)/disxx.utility.trait.IClone-mod.o
+$(OBJROOT)/disxx.utility.pointer.Pointer-mod.o
+$(OBJROOT)/disxx.utility.pointer.Weak-mod.o
+$(OBJROOT)/disxx.utility.pointer.DefaultDeleter-mod.o
+$(OBJROOT)/disxx.utility.error.NullPointerError-mod.o
+$(OBJROOT)/disxx.utility.pointer.NonNull-mod.o
+$(OBJROOT)/mapped.o
