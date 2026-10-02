@@ -61,7 +61,6 @@
 				modules/public/disxx.utility.Overload.cppm,
 				modules/public/disxx.utility.trait.IClone.cppm,
 				modules/public/file/disxx.utility.file.MappedFile.cppm,
-				modules/public/file/mapped.h,
 				modules/public/ini/disxx.utility.ini.Parser.cppm,
 				modules/public/pointer/disxx.utility.pointer.NonNull.cppm,
 				modules/public/pointer/disxx.utility.pointer.Pointer.cppm,
