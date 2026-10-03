@@ -6,7 +6,7 @@ $(SRCROOT)/disxx-utility/modules/private/ini/disxx.utility.ini.BaseParser.cppm
 $(SRCROOT)/disxx-utility/modules/private/ini/disxx.utility.ini.Reader.cppm
 $(SRCROOT)/disxx-utility/modules/private/ini/disxx.utility.ini.Writer.cppm
 $(SRCROOT)/disxx-utility/modules/public/ini/disxx.utility.ini.Parser.cppm
-$(SRCROOT)/disxx-utility/modules/public/disxx.utility.trait.IClone.cppm
+$(SRCROOT)/disxx-utility/modules/public/disxx.utility.IClone.cppm
 $(SRCROOT)/disxx-utility/modules/public/pointer/disxx.utility.pointer.Pointer.cppm
 $(SRCROOT)/disxx-utility/modules/public/pointer/disxx.utility.pointer.Weak.cppm
 $(SRCROOT)/disxx-utility/modules/private/pointer/disxx.utility.pointer.DefaultDeleter.cppm

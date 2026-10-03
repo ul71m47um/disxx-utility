@@ -1,8 +1,8 @@
-export module disxx.utility.trait.IClone;
+export module disxx.utility.IClone;
 
 export import std;
 
-export namespace disxx::utility::trait
+export namespace disxx::utility
 {
 	template <typename T>
 	class IClone
@@ -12,4 +12,4 @@ export namespace disxx::utility::trait
 
 		virtual std::unique_ptr<T> Clone(void) const noexcept = 0;
 	};
-} /* disxx::utility::trait */
+} /* disxx::utility */

@@ -16,7 +16,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "8450B9BE306D0F5800C1803E"
-               BuildableName = "disxx_utility.framework"
+               BuildableName = "disxx-utility.framework"
                ReferencedContainer = "container:disxx-utility.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -51,7 +51,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "8450B9BE306D0F5800C1803E"
-            BuildableName = "disxx_utility.framework"
+            BuildableName = "disxx-utility.framework"
             ReferencedContainer = "container:disxx-utility.xcodeproj">
          </BuildableReference>
       </MacroExpansion>

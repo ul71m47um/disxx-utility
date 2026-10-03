@@ -17,8 +17,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		8436FB233070102F00CC03DE /* modules.xcfilelist */ = {isa = PBXFileReference; lastKnownFileType = text.xcfilelist; path = modules.xcfilelist; sourceTree = "<group>"; };
-		8436FB6130701C6D00CC03DE /* objects.xcfilelist */ = {isa = PBXFileReference; lastKnownFileType = text.xcfilelist; path = objects.xcfilelist; sourceTree = "<group>"; };
 		8450B9BF306D0F5800C1803E /* disxx-utility.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "disxx-utility.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -27,6 +25,7 @@
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Makefile,
+				modules.xcfilelist,
 				modules/private/error/disxx.utility.error.NullPointerError.cppm,
 				modules/private/error/disxx.utility.error.ParserError.cppm,
 				modules/private/ini/disxx.utility.ini.BaseParser.cppm,
@@ -34,12 +33,12 @@
 				modules/private/ini/disxx.utility.ini.Writer.cppm,
 				modules/private/pointer/disxx.utility.pointer.DefaultDeleter.cppm,
 				modules/public/disxx.utility.Overload.cppm,
-				modules/public/disxx.utility.trait.IClone.cppm,
 				modules/public/file/disxx.utility.file.MappedFile.cppm,
 				modules/public/ini/disxx.utility.ini.Parser.cppm,
 				modules/public/pointer/disxx.utility.pointer.NonNull.cppm,
 				modules/public/pointer/disxx.utility.pointer.Pointer.cppm,
 				modules/public/pointer/disxx.utility.pointer.Weak.cppm,
+				objects.xcfilelist,
 				src/file/mapped.c,
 				src/file/mapped.s,
 			);
@@ -59,7 +58,6 @@
 				modules/private/ini/disxx.utility.ini.Writer.cppm,
 				modules/private/pointer/disxx.utility.pointer.DefaultDeleter.cppm,
 				modules/public/disxx.utility.Overload.cppm,
-				modules/public/disxx.utility.trait.IClone.cppm,
 				modules/public/file/disxx.utility.file.MappedFile.cppm,
 				modules/public/ini/disxx.utility.ini.Parser.cppm,
 				modules/public/pointer/disxx.utility.pointer.NonNull.cppm,
@@ -93,8 +91,6 @@
 		8450B9B5306D0F5800C1803E = {
 			isa = PBXGroup;
 			children = (
-				8436FB6130701C6D00CC03DE /* objects.xcfilelist */,
-				8436FB233070102F00CC03DE /* modules.xcfilelist */,
 				8450B9C1306D0F5800C1803E /* disxx-utility */,
 				8450B9C0306D0F5800C1803E /* Products */,
 			);
@@ -186,7 +182,7 @@
 		84EB8C1E306E74E200C55817 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			inputFileListPaths = (
-				"$(SRCROOT)/modules.xcfilelist",
+				"$(SRCROOT)/disxx-utility/modules.xcfilelist",
 			);
 			inputPaths = (
 				"",
@@ -194,7 +190,7 @@
 				"$(SRCROOT)/disxx-utility/src/file/mapped.c",
 			);
 			outputFileListPaths = (
-				"$(SRCROOT)/objects.xcfilelist",
+				"$(SRCROOT)/disxx-utility/objects.xcfilelist",
 			);
 			shellPath = /usr/bin/ruby;
 			shellScript = (

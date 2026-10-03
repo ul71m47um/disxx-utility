@@ -6,7 +6,7 @@ $(OBJROOT)/disxx.utility.ini.BaseParser-mod.o
 $(OBJROOT)/disxx.utility.ini.Reader-mod.o
 $(OBJROOT)/disxx.utility.ini.Writer-mod.o
 $(OBJROOT)/disxx.utility.ini.Parser-mod.o
-$(OBJROOT)/disxx.utility.trait.IClone-mod.o
+$(OBJROOT)/disxx.utility.IClone-mod.o
 $(OBJROOT)/disxx.utility.pointer.Pointer-mod.o
 $(OBJROOT)/disxx.utility.pointer.Weak-mod.o
 $(OBJROOT)/disxx.utility.pointer.DefaultDeleter-mod.o
