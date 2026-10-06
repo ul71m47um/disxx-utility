@@ -9,7 +9,49 @@
 /* Begin PBXCopyFilesBuildPhase section */
 		8436FBA23070304200CC03DE /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
+			dstPath = PrivateModules/error;
+			dstSubfolder = Executables;
+			files = (
+			);
+		};
+		848E5E713075047C00D438DC /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			dstPath = PrivateModules/ini;
+			dstSubfolder = Executables;
+			files = (
+			);
+		};
+		848E5E763075049C00D438DC /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			dstPath = PrivateModules/pointer;
+			dstSubfolder = Executables;
+			files = (
+			);
+		};
+		848E5E79307504B200D438DC /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
 			dstPath = Modules;
+			dstSubfolder = Executables;
+			files = (
+			);
+		};
+		848E5E7D307504C900D438DC /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			dstPath = Modules/pointer;
+			dstSubfolder = Executables;
+			files = (
+			);
+		};
+		848E5E82307504F700D438DC /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			dstPath = Modules/ini;
+			dstSubfolder = Executables;
+			files = (
+			);
+		};
+		848E5E853075051700D438DC /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			dstPath = Modules/file;
 			dstSubfolder = Executables;
 			files = (
 			);
@@ -25,20 +67,6 @@
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Makefile,
-				modules.xcfilelist,
-				modules/private/error/disxx.utility.error.NullPointerError.cppm,
-				modules/private/error/disxx.utility.error.ParserError.cppm,
-				modules/private/ini/disxx.utility.ini.BaseParser.cppm,
-				modules/private/ini/disxx.utility.ini.Reader.cppm,
-				modules/private/ini/disxx.utility.ini.Writer.cppm,
-				modules/private/pointer/disxx.utility.pointer.DefaultDeleter.cppm,
-				modules/public/disxx.utility.Overload.cppm,
-				modules/public/file/disxx.utility.file.MappedFile.cppm,
-				modules/public/ini/disxx.utility.ini.Parser.cppm,
-				modules/public/pointer/disxx.utility.pointer.NonNull.cppm,
-				modules/public/pointer/disxx.utility.pointer.Pointer.cppm,
-				modules/public/pointer/disxx.utility.pointer.Weak.cppm,
-				objects.xcfilelist,
 				src/file/mapped.c,
 				src/file/mapped.s,
 			);
@@ -53,16 +81,54 @@
 			membershipExceptions = (
 				modules/private/error/disxx.utility.error.NullPointerError.cppm,
 				modules/private/error/disxx.utility.error.ParserError.cppm,
+			);
+		};
+		848E5E753075049400D438DC /* Exceptions for "disxx-utility" folder in "Copy Files" phase from "disxx-utility" target */ = {
+			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
+			buildPhase = 848E5E713075047C00D438DC /* CopyFiles */;
+			membershipExceptions = (
 				modules/private/ini/disxx.utility.ini.BaseParser.cppm,
 				modules/private/ini/disxx.utility.ini.Reader.cppm,
 				modules/private/ini/disxx.utility.ini.Writer.cppm,
+			);
+		};
+		848E5E78307504AA00D438DC /* Exceptions for "disxx-utility" folder in "Copy Files" phase from "disxx-utility" target */ = {
+			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
+			buildPhase = 848E5E763075049C00D438DC /* CopyFiles */;
+			membershipExceptions = (
 				modules/private/pointer/disxx.utility.pointer.DefaultDeleter.cppm,
+			);
+		};
+		848E5E7C307504C500D438DC /* Exceptions for "disxx-utility" folder in "Copy Files" phase from "disxx-utility" target */ = {
+			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
+			buildPhase = 848E5E79307504B200D438DC /* CopyFiles */;
+			membershipExceptions = (
+				modules/public/disxx.utility.IClone.cppm,
 				modules/public/disxx.utility.Overload.cppm,
-				modules/public/file/disxx.utility.file.MappedFile.cppm,
-				modules/public/ini/disxx.utility.ini.Parser.cppm,
+			);
+		};
+		848E5E81307504E100D438DC /* Exceptions for "disxx-utility" folder in "Copy Files" phase from "disxx-utility" target */ = {
+			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
+			buildPhase = 848E5E7D307504C900D438DC /* CopyFiles */;
+			membershipExceptions = (
 				modules/public/pointer/disxx.utility.pointer.NonNull.cppm,
 				modules/public/pointer/disxx.utility.pointer.Pointer.cppm,
 				modules/public/pointer/disxx.utility.pointer.Weak.cppm,
+			);
+		};
+		848E5E843075051300D438DC /* Exceptions for "disxx-utility" folder in "Copy Files" phase from "disxx-utility" target */ = {
+			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
+			buildPhase = 848E5E82307504F700D438DC /* CopyFiles */;
+			membershipExceptions = (
+				modules/public/ini/disxx.utility.ini.Parser.cppm,
+			);
+		};
+		848E5E883075052700D438DC /* Exceptions for "disxx-utility" folder in "Copy Files" phase from "disxx-utility" target */ = {
+			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
+			buildPhase = 848E5E853075051700D438DC /* CopyFiles */;
+			membershipExceptions = (
+				modules/public/file/disxx.utility.file.MappedFile.cppm,
+				modules/public/file/mapped.h,
 			);
 		};
 /* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
@@ -73,6 +139,12 @@
 			exceptions = (
 				8436FB603070111900CC03DE /* Exceptions for "disxx-utility" folder in "disxx-utility" target */,
 				8436FBB13070307600CC03DE /* Exceptions for "disxx-utility" folder in "Copy Files" phase from "disxx-utility" target */,
+				848E5E753075049400D438DC /* Exceptions for "disxx-utility" folder in "Copy Files" phase from "disxx-utility" target */,
+				848E5E78307504AA00D438DC /* Exceptions for "disxx-utility" folder in "Copy Files" phase from "disxx-utility" target */,
+				848E5E7C307504C500D438DC /* Exceptions for "disxx-utility" folder in "Copy Files" phase from "disxx-utility" target */,
+				848E5E81307504E100D438DC /* Exceptions for "disxx-utility" folder in "Copy Files" phase from "disxx-utility" target */,
+				848E5E843075051300D438DC /* Exceptions for "disxx-utility" folder in "Copy Files" phase from "disxx-utility" target */,
+				848E5E883075052700D438DC /* Exceptions for "disxx-utility" folder in "Copy Files" phase from "disxx-utility" target */,
 			);
 			path = "disxx-utility";
 			sourceTree = "<group>";
@@ -123,8 +195,13 @@
 				8450B9BA306D0F5800C1803E /* Headers */,
 				8450B9BB306D0F5800C1803E /* Sources */,
 				8450B9BC306D0F5800C1803E /* Frameworks */,
-				8450B9BD306D0F5800C1803E /* Resources */,
 				8436FBA23070304200CC03DE /* CopyFiles */,
+				848E5E713075047C00D438DC /* CopyFiles */,
+				848E5E763075049C00D438DC /* CopyFiles */,
+				848E5E79307504B200D438DC /* CopyFiles */,
+				848E5E7D307504C900D438DC /* CopyFiles */,
+				848E5E82307504F700D438DC /* CopyFiles */,
+				848E5E853075051700D438DC /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -170,14 +247,6 @@
 		};
 /* End PBXProject section */
 
-/* Begin PBXResourcesBuildPhase section */
-		8450B9BD306D0F5800C1803E /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			files = (
-			);
-		};
-/* End PBXResourcesBuildPhase section */
-
 /* Begin PBXShellScriptBuildPhase section */
 		84EB8C1E306E74E200C55817 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -201,13 +270,13 @@
 				"",
 				"if __FILE__ == $0",
 				"    Dir.mkdir(\"#{ENV[\"DERIVED_FILE_DIR\"]}/precompiled/\") if !Dir.exists? \"#{ENV[\"DERIVED_FILE_DIR\"]}/precompiled/\"",
-				"    Dir.mkdir(ENV[\"OBJROOT\"]) if !Dir.exists? ENV[\"OBJROOT\"]",
+				"    Dir.mkdir(ENV[\"OBJECT_FILE_DIR\"]) if !Dir.exists? ENV[\"OBJECT_FILE_DIR\"]",
 				"",
 				"    if ENV[\"ARCHS\"] == \"arm64\"",
 				"        _, stderr, status = Open3.capture3(",
 				"            \"xcrun\", \"as\",",
 				"            \"-c\", ENV[\"SCRIPT_INPUT_FILE_1\"],",
-				"            \"-o\", \"#{ENV[\"OBJROOT\"]}/#{File.basename(ENV[\"SCRIPT_INPUT_FILE_1\"]).gsub /\\.s$/, \".o\"}\"",
+				"            \"-o\", \"#{ENV[\"OBJECT_FILE_DIR\"]}/#{File.basename(ENV[\"SCRIPT_INPUT_FILE_1\"]).gsub /\\.s$/, \".o\"}\"",
 				"        )",
 				"            ",
 				"        warn stderr",
@@ -218,7 +287,7 @@
 				"            \"xcrun\", \"clang\",",
 				"            *Shellwords.shellsplit(ENV[\"OTHER_CFLAGS\"] || \"\"),",
 				"            \"-c\", ENV[\"SCRIPT_INPUT_FILE_2\"],",
-				"            \"-o\", \"#{ENV[\"OBJROOT\"]}/#{File.basename(ENV[\"SCRIPT_INPUT_FILE_2\"]).gsub /\\.c$/, \".o\"}\"",
+				"            \"-o\", \"#{ENV[\"OBJECT_FILE_DIR\"]}/#{File.basename(ENV[\"SCRIPT_INPUT_FILE_2\"]).gsub /\\.c$/, \".o\"}\"",
 				"        )",
 				"            ",
 				"        warn stderr",
@@ -238,7 +307,7 @@
 				"                \"-std=#{ENV[\"CLANG_CXX_LANGUAGE_STANDARD\"]}\",",
 				"                \"-fmodule-output=#{ENV[\"DERIVED_FILE_DIR\"]}/precompiled/#{File.basename(src.gsub /\\.cppm$/, \".pcm\")}\",",
 				"                \"-c\", src,",
-				"                \"-o\", \"#{ENV[\"OBJROOT\"]}/#{File.basename(src).gsub /\\.cppm$/, \"-mod.o\"}\"",
+				"                \"-o\", \"#{ENV[\"OBJECT_FILE_DIR\"]}/#{File.basename(src).gsub /\\.cppm$/, \"-mod.o\"}\"",
 				"            )",
 				"            ",
 				"            warn stderr",
